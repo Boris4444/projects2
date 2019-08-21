@@ -29,7 +29,6 @@ public class ProductController {
 		JSONArray chineseProducts = new JSONArray();
 		boolean containsFragileProducts = false;
 		
-		
 		for(Product product : productlist) {			
 			
 			// Überprüfung ob höchster Preis
